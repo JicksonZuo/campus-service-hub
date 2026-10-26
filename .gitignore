@@ -1,0 +1,83 @@
+﻿# Dependencies
+node_modules/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Top-level backups
+backup-*/
+campuscare-*/
+campuscare-before-*/
+
+# Nested source backups
+frontend/src/*.backup*.jsx
+frontend/src/*.before-*.jsx
+frontend/src/backup-*/
+# Backend backup files
+backend/**/*.bak
+backend/**/*.backup*
+backend/**/*.diagnostic-backup*
+
+# Frontend backup files
+frontend/src/*.bak
+frontend/src/*.backup*
+frontend/src/*.before-*
+frontend/src/*.sidebar-backup*
+frontend/src/*.smart-backup*
+frontend/src/backup-*/
+
+# Temporary notes
+frontend/src/*.txt
+# Backend backup files
+backend/**/*.bak
+backend/**/*.bak.*
+backend/**/*backup*
+backend/**/*diagnostic*
+
+# Frontend backup files
+frontend/src/*.bak
+frontend/src/*.backup*
+frontend/src/*.before-*
+frontend/src/*.readability.bak
+frontend/src/*.finalfix.bak
+frontend/src/*.symbolfix.bak
+frontend/src/*.sidebar-backup*
+frontend/src/*.smart-backup*
+frontend/src/backup-*/
+
+# Temporary notes
+frontend/src/*.txt
+# Ignore all backend backup files
+backend/**/*.bak
+backend/**/*.bak.*
+backend/**/*backup*
+backend/**/*before*
+backend/**/*diagnostic*
+
+# Ignore all frontend backup files
+frontend/src/*.bak
+frontend/src/*.bak.*
+frontend/src/*.backup*
+frontend/src/*.before-*
+frontend/src/*.before-*
+frontend/src/*.sidebar-backup*
+frontend/src/*.smart-backup*
+
+# Ignore temporary notes
+frontend/src/*.txt
+# Private account administration scripts
+backend/scripts/
